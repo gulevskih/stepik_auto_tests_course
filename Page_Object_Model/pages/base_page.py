@@ -1,0 +1,9 @@
+from selenium.webdriver.common.by import By
+import time
+
+
+class BasePage():
+    def __init__(self, browser, url):
+        self.browser = browser
+        self.url = url
+
